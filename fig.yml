@@ -1,0 +1,13 @@
+web:
+  image: dnmgns/nginx:0.1
+  links:
+    - "php:php"
+  ports:
+    - "80:80"
+  environment:
+    VHOST: findrel.dev
+
+php:
+  image: dnmgns/fpm:0.1
+  volumes:
+    - .:/var/www/
