@@ -1,5 +1,5 @@
 web:
-  image: dnmgns/nginx:0.1
+  image: dnmgns/nginx:latest
   links:
     - "php:php"
   ports:
@@ -8,6 +8,6 @@ web:
     VHOST: findrel.dev
 
 php:
-  image: dnmgns/fpm:0.1
+  image: dnmgns/fpm:latest
   volumes:
     - .:/var/www/
