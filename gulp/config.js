@@ -9,5 +9,9 @@ module.exports = {
       indentedSyntax: true, // Enable .sass syntax!
       imagePath: '/images' // Used by the image-url helper
     }
-  }
+  },
+  images: {
+    src: src + "/images/**",
+    dest: dest + "/images"
+  },
 }
