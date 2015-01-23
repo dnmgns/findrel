@@ -6,6 +6,8 @@ web:
     - "80:80"
   environment:
     VHOST: findrel.dev
+  volumes_from:
+    - 'php'
 
 php:
   image: dnmgns/fpm:latest
