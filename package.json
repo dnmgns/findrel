@@ -26,6 +26,12 @@
     "browser-sync": "^1.9.0",
     "require-dir": "^0.1.0",
     "gulp-changed": "^1.1.0",
-    "gulp-imagemin": "^2.1.0"
+    "gulp-imagemin": "^2.1.0",
+    "watchify": "^2.2.1",
+    "gulp-util": "^3.0.2",
+    "pretty-hrtime": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0",
+    "lodash": "^2.4.1",
+    "normalize-css": "^2.3.1"
   }
 }
